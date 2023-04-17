@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "bfcb5996-eaed-40f8-9343-7cf285bb049e",
+		"name": "Sololearn test API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26408312"
+	},
+	"item": [
+		{
+			"name": "Registration new account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"Test456@mail.ru\",\r\n    \"password\": \"test123ter\",\r\n    \"name\": \"Olesya\",\r\n    \"subject\": \"5e3b31a51e6dc66e33c8f3af8f772757\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api2.sololearn.com/v2/authentication/user",
+					"protocol": "https",
+					"host": [
+						"api2",
+						"sololearn",
+						"com"
+					],
+					"path": [
+						"v2",
+						"authentication",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change and add information in account",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Olesya S\",\r\n    \"email\": \"Test456@mail.ru\",\r\n    \"bio\": \"I love my life\",\r\n    \"countryCode\": \"us\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api2.sololearn.com/v2/userinfo/v3/profile/28936059",
+					"protocol": "https",
+					"host": [
+						"api2",
+						"sololearn",
+						"com"
+					],
+					"path": [
+						"v2",
+						"userinfo",
+						"v3",
+						"profile",
+						"28936059"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"alias\": \"c-sharp-introduction\",\r\n    \"location_type\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api2.sololearn.com/v2/learnEngine/api/learn/enroll",
+					"protocol": "https",
+					"host": [
+						"api2",
+						"sololearn",
+						"com"
+					],
+					"path": [
+						"v2",
+						"learnEngine",
+						"api",
+						"learn",
+						"enroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"alias\": \"c-sharp-introduction\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api2.sololearn.com/v2/learnEngine/api/learn/remove",
+					"protocol": "https",
+					"host": [
+						"api2",
+						"sololearn",
+						"com"
+					],
+					"path": [
+						"v2",
+						"learnEngine",
+						"api",
+						"learn",
+						"remove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api2.sololearn.com/v2/userinfo/v3/profile/28936059",
+					"protocol": "https",
+					"host": [
+						"api2",
+						"sololearn",
+						"com"
+					],
+					"path": [
+						"v2",
+						"userinfo",
+						"v3",
+						"profile",
+						"28936059"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJ7XCJJbnN0YW5jZUlkXCI6MjU3NzU4NjgsXCJVc2VySWRcIjoyODkzNjA1OSxcIk5pY2tuYW1lXCI6XCJPbGVzeWFcIixcIkRldmljZUlkXCI6NzEyNDQxNzYsXCJDbGllbnRJZFwiOjExNDMsXCJMb2NhbGVJZFwiOjEsXCJBcHBWZXJzaW9uXCI6XCIwLjAuMC4wXCIsXCJJc1Byb1wiOmZhbHNlLFwiR2VuZXJhdGlvblwiOlwiNjA5OWQ0YWMtYjE0Zi00YjI4LWI1MjQtMmY1OWRkODJiMzdkXCJ9IiwianRpIjoiOGI2YTRkYTItOWQ2OS00ZmNkLWI4OWUtNmJlNzZhMDQwNGJkIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiVXNlciIsIm5iZiI6MTY4MTUwNDA5MSwiZXhwIjoxNjgxNTA3NjkxLCJpc3MiOiJTb2xvTGVhcm4uU2VjdXJpdHkuQmVhcmVyIiwiYXVkIjoiU29sb0xlYXJuLlNlY3VyaXR5LkJlYXJlciJ9.suMKShK6OWOJ4Mdlj4LrmlX-QTIGjO1D_8eHCkIKBlM",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
