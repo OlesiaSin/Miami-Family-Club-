@@ -1,0 +1,760 @@
+{
+  "id": "f6aeac70-2832-43b4-9d3c-f2fac3b9c344",
+  "version": "2.0",
+  "name": "Miami Family Club",
+  "url": "https://www.miamifamilyclub.com/",
+  "tests": [{
+    "id": "c2057824-098d-41b7-8ead-355b26b6e966",
+    "name": "TC09. Automation of viewing the “Home page” block.",
+    "commands": [{
+      "id": "5e49103f-67ad-4eb5-aec6-d07a039c60d5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.miamifamilyclub.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "647c883c-ed29-40a7-a302-ef98e93c16e9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d22402d3-bc4c-41e4-9e86-16614944b0c7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4939)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea85c705-c75e-4f5e-a4d0-e7c4210cf59b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "198e4dc8-8141-45ee-83ba-7e7bcf5af4da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f7d5b0e-b74c-4152-865a-579f6dfc176e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26b5e83-c9fb-4ed7-98b5-0c4b96fe1f15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "95599a0e-8bbb-4cda-b53a-28a933e39ccb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a18e0c4-eb37-4cb8-b428-4276e48ae3c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "222311d6-7e4b-4580-beb1-d8870127eb10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2b56dc6-eb65-44a5-9315-8a93b7b833ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "73e987df-e8c1-48a4-98a5-2ae2b17e5111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d22340e-e3ae-489f-afd5-5dbb72fb5582",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowright > svg",
+      "targets": [
+        ["css=.arrowright > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fefb294-d347-4aea-a41d-63b6130e7048",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a071452-f003-46ff-8a94-13e3874724e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aacadb8a-caaf-4863-9367-0687bba36769",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e7381f-e7c3-4495-9d5d-423d7ec25ac4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c44b307-63b7-4990-88ca-fc3490fabd07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "180bcc71-5715-4229-9152-f55cb9abeaad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd6bb044-fa98-4cd4-a522-5f6e7ffc7565",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "999c14a4-120b-4e98-b2d6-9927b8a0a83d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb612e12-50a0-4f99-8f05-083ecc22ca90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2e7f4a-4537-4557-8bbc-af26bfd44014",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d7b98ec-8f47-41f9-a01d-fed1b0733cba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrowleft > svg",
+      "targets": [
+        ["css=.arrowleft > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c65bd42-eb8d-42e2-ba8f-878ab92b6b88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pause",
+      "targets": [
+        ["css=.pause", "css:finder"],
+        ["xpath=//div[@id='jssor_1']/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb591e5-e3d2-49a4-b263-4eb50d4b9b5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.play",
+      "targets": [
+        ["css=.play", "css:finder"],
+        ["xpath=//div[@id='jssor_1']/div[5]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b419c9-dd6c-4009-ba86-f66869431c30",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2861)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6513eb3f-ca3e-477f-8d40-7232051d1049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right use",
+      "targets": [
+        ["css=.right use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "25e690cf-3a44-4f8a-89ea-773c76c16c7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right use",
+      "targets": [
+        ["css=.right use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9732ca1e-8955-4a27-9c94-d4c0c6ee3beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right use",
+      "targets": [
+        ["css=.right use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e0867c5-97af-4ce5-b6dd-8462237bca01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lalign",
+      "targets": [
+        ["css=.lalign", "css:finder"],
+        ["xpath=//div[@id='events-calendar']/div/div", "xpath:idRelative"],
+        ["xpath=//aside[2]/section/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cef4d9d-031d-41ca-b05a-2fbef10a8246",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lalign",
+      "targets": [
+        ["css=.lalign", "css:finder"],
+        ["xpath=//div[@id='events-calendar']/div/div", "xpath:idRelative"],
+        ["xpath=//aside[2]/section/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e440f5-4f4f-47cf-bf02-022e655f03a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lalign",
+      "targets": [
+        ["css=.lalign", "css:finder"],
+        ["xpath=//div[@id='events-calendar']/div/div", "xpath:idRelative"],
+        ["xpath=//aside[2]/section/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "81583a9c-eb03-428c-9f92-63fee62fd399",
+    "name": "TC10. Automation of viewing and booking an event ",
+    "commands": [{
+      "id": "96c4bbbc-8f66-42c7-a1f5-b3e3636a72a8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.miamifamilyclub.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76ab115b-c3e9-4261-9422-11747dd9bdbc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1364x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fefc0982-53a1-4d98-bc0c-6f45b00bed97",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fli_2 img",
+      "targets": [
+        ["css=#fli_2 img", "css:finder"],
+        ["xpath=//img[@alt='Family kayaking - River quest']", "xpath:img"],
+        ["xpath=//li[@id='fli_2']/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[2]/div/ul/li/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3436",
+      "windowTimeout": 2000
+    }, {
+      "id": "3af66c19-9319-48b7-9e08-39212d3e4885",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59e1bfd9-ed92-4cee-919e-06e5c66b6082",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3436}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b08fd2d8-4f50-4aa4-b3c7-8ba267822532",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,13)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05f88897-1cc7-4556-ad46-c17c8ef488b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide:nth-child(2) > .swiper-lazy",
+      "targets": [
+        ["css=.swiper-slide:nth-child(2) > .swiper-lazy", "css:finder"],
+        ["xpath=(//img[@alt='Family kayaking - River quest'])[2]", "xpath:img"],
+        ["xpath=//section[@id='controller_area']/div/section/div/div[2]/div[2]/ul/li[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a92d5df5-2b57-4268-baec-0560e42cf91d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide:nth-child(3) > .swiper-lazy",
+      "targets": [
+        ["css=.swiper-slide:nth-child(3) > .swiper-lazy", "css:finder"],
+        ["xpath=(//img[@alt='Family kayaking - River quest'])[3]", "xpath:img"],
+        ["xpath=//section[@id='controller_area']/div/section/div/div[2]/div[2]/ul/li[3]/img", "xpath:idRelative"],
+        ["xpath=//li[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c438b70-943c-46bc-aedd-71866f924aab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide:nth-child(4) > .swiper-lazy",
+      "targets": [
+        ["css=.swiper-slide:nth-child(4) > .swiper-lazy", "css:finder"],
+        ["xpath=(//img[@alt='Family kayaking - River quest'])[4]", "xpath:img"],
+        ["xpath=//section[@id='controller_area']/div/section/div/div[2]/div[2]/ul/li[4]/img", "xpath:idRelative"],
+        ["xpath=//li[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc4ffb4-a962-4f36-a6c3-8b28c04deb38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide:nth-child(5) > .swiper-lazy",
+      "targets": [
+        ["css=.swiper-slide:nth-child(5) > .swiper-lazy", "css:finder"],
+        ["xpath=//img[@alt='Family Club Kayaking ']", "xpath:img"],
+        ["xpath=//section[@id='controller_area']/div/section/div/div[2]/div[2]/ul/li[5]/img", "xpath:idRelative"],
+        ["xpath=//li[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d41ea042-00af-4295-a41c-d200fc0fcb40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.play",
+      "targets": [
+        ["css=.play", "css:finder"],
+        ["xpath=//section[@id='controller_area']/div/section/div/div[2]/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/div[2]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5b87093-5ffd-4671-837d-8987e7cb83ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1)",
+      "targets": [
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Order a ticket')]", "xpath:link"],
+        ["xpath=//div[@id='order_ticket']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.miamifamilyclub.com/tickets-order.html?item=2')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae72be32-4bea-4109-bd70-63bea86617b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=css_INPUT_1",
+      "targets": [
+        ["id=css_INPUT_1", "id"],
+        ["name=tickets[119][key]", "name"],
+        ["css=#css_INPUT_1", "css:finder"],
+        ["xpath=//input[@id='css_INPUT_1']", "xpath:attributes"],
+        ["xpath=//div[@id='ticket-type-']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca090ee5-4fcb-4897-a0fb-9fd317cae260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lalign > input",
+      "targets": [
+        ["css=.lalign > input", "css:finder"],
+        ["xpath=//input[@value='Next']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cart']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3e5d32-330e-49c6-9bf4-59b1fb145d1e",
+      "comment": "",
+      "command": "click",
+      "target": "name=gateway",
+      "targets": [
+        ["name=gateway", "name"],
+        ["css=.bwt", "css:finder"],
+        ["xpath=//input[@name='gateway']", "xpath:attributes"],
+        ["xpath=//ul[@id='payment_gateways']/li/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a515d87-8346-4ae1-9a75-80c896e255b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=css_INPUT_2",
+      "targets": [
+        ["id=css_INPUT_2", "id"],
+        ["name=terms_of_use", "name"],
+        ["css=#css_INPUT_2", "css:finder"],
+        ["xpath=//input[@id='css_INPUT_2']", "xpath:attributes"],
+        ["xpath=//form[@id='form-checkout']/div[5]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90f04309-d8fb-4f2c-8ba0-62190074cb9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-buttons > input",
+      "targets": [
+        ["css=.form-buttons > input", "css:finder"],
+        ["xpath=//input[@value='Checkout']", "xpath:attributes"],
+        ["xpath=//form[@id='form-checkout']/div[6]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "349c9d83-819f-4764-a1b9-427f512b2287",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2212c51d-0258-4221-baee-64be96f4d171",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31a4f111-2564-4f1e-a058-f603f2bedf8d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "303764ae-53c9-4b81-8408-3eb23b811f19",
+    "name": "TC11. Automation of viewing page “My Profile” information.",
+    "commands": [{
+      "id": "09d23fda-2fda-4b2b-918e-b92b9258e721",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.miamifamilyclub.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a515b0e-3e78-40a2-b19b-2dfc7fc3dc0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "948x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa2d07e0-2ec5-4818-b942-3d112bd421f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.default > span",
+      "targets": [
+        ["css=.default > span", "css:finder"],
+        ["xpath=//span[@id='user-navbar']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6593f2f1-9f08-439b-8bee-1cfe63c87ed1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Profile",
+      "targets": [
+        ["linkText=My Profile", "linkText"],
+        ["css=li:nth-child(2) > .font2", "css:finder"],
+        ["xpath=//a[contains(text(),'My Profile')]", "xpath:link"],
+        ["xpath=//span[@id='user-navbar']/span[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.miamifamilyclub.com/my-profile.html')]", "xpath:href"],
+        ["xpath=//span[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbee4115-3d27-4c71-86fc-0e79d8910f7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab_account > a",
+      "targets": [
+        ["css=#tab_account > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Account Settings')]", "xpath:link"],
+        ["xpath=//li[@id='tab_account']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#account')]", "xpath:href"],
+        ["xpath=//section/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8412c44-beb2-4de0-8f17-28bd0b296a4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,860)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7931dc6b-3a22-45f2-9047-ef07079a39be",
+      "comment": "",
+      "command": "click",
+      "target": "name=account[number_family]",
+      "targets": [
+        ["name=account[number_family]", "name"],
+        ["css=#sf_field_number_family > .wauto", "css:finder"],
+        ["xpath=//input[@name='account[number_family]']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_number_family']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3bb60be-deff-4e48-8a54-de3c33ec8a85",
+      "comment": "",
+      "command": "type",
+      "target": "name=account[number_family]",
+      "targets": [
+        ["name=account[number_family]", "name"],
+        ["css=#sf_field_number_family > .wauto", "css:finder"],
+        ["xpath=//input[@name='account[number_family]']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_number_family']/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "a537034a-cc79-4957-bd40-fea3772056af",
+      "comment": "",
+      "command": "click",
+      "target": "name=account[kids_ander_five]",
+      "targets": [
+        ["name=account[kids_ander_five]", "name"],
+        ["css=#sf_field_kids_ander_five > .wauto", "css:finder"],
+        ["xpath=//input[@name='account[kids_ander_five]']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_kids_ander_five']/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "557ae36a-a5c3-4eb5-a7d2-5636aa6d0709",
+      "comment": "",
+      "command": "type",
+      "target": "name=account[kids_ander_five]",
+      "targets": [
+        ["name=account[kids_ander_five]", "name"],
+        ["css=#sf_field_kids_ander_five > .wauto", "css:finder"],
+        ["xpath=//input[@name='account[kids_ander_five]']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_kids_ander_five']/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "3d8b0718-3390-4801-9cd9-d796a3146e91",
+      "comment": "",
+      "command": "click",
+      "target": "name=account[kids_alder_six]",
+      "targets": [
+        ["name=account[kids_alder_six]", "name"],
+        ["css=#sf_field_kids_alder_six > .wauto", "css:finder"],
+        ["xpath=//input[@name='account[kids_alder_six]']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_kids_alder_six']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "079e6eea-dff2-4d0b-8f05-dd2ce33842ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=account[kids_alder_six]",
+      "targets": [
+        ["name=account[kids_alder_six]", "name"],
+        ["css=#sf_field_kids_alder_six > .wauto", "css:finder"],
+        ["xpath=//input[@name='account[kids_alder_six]']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_kids_alder_six']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "1a06a9d4-5346-433a-8011-41cb57778152",
+      "comment": "",
+      "command": "click",
+      "target": "id=date_birthday",
+      "targets": [
+        ["id=date_birthday", "id"],
+        ["name=account[birthday]", "name"],
+        ["css=#date_birthday", "css:finder"],
+        ["xpath=//input[@id='date_birthday']", "xpath:attributes"],
+        ["xpath=//div[@id='sf_field_birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aaadc4d-b591-4574-8e58-bbf651b92162",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=9",
+      "targets": [
+        ["linkText=9", "linkText"],
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//a[contains(text(),'9')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[17]", "xpath:href"],
+        ["xpath=//tr[2]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'9')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ae1a86-70c7-472d-966b-abad7fc43fb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-year",
+      "targets": [
+        ["css=.ui-datepicker-year", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/div/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "074734fe-c28f-4454-945f-478d37283462",
+      "comment": "",
+      "command": "click",
+      "target": "name=finish",
+      "targets": [
+        ["name=finish", "name"],
+        ["css=.submit-cell:nth-child(14) input", "css:finder"],
+        ["xpath=//input[@name='finish']", "xpath:attributes"],
+        ["xpath=//div[@id='area_account']/form/div[12]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c2db2b-627c-4a87-9afb-62a27cca31a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,140)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78e8cf13-2497-474d-9b5b-89eb7c22467b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab_membership > a",
+      "targets": [
+        ["css=#tab_membership > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Membership')])[2]", "xpath:link"],
+        ["xpath=//li[@id='tab_membership']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#membership')])[3]", "xpath:href"],
+        ["xpath=//section/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8e35c3-4d8b-48d9-8c3c-7d421ec52bcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab_profile > a",
+      "targets": [
+        ["css=#tab_profile > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Settings')]", "xpath:link"],
+        ["xpath=//li[@id='tab_profile']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#profile')]", "xpath:href"],
+        ["xpath=//section/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "048f4b55-5ef5-469c-81f9-5ea218a95eb8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.miamifamilyclub.com/"],
+  "plugins": []
+}
